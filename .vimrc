@@ -1,8 +1,11 @@
 " Don't try to be vi compatible
-set nocompatible
+" set nocompatible
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
+" Disable visual blink and sound beep
+set visualbell 
+set t_vb=
 " TODO: Load plugins here (pathogen or vundle)
 
 " Turn on syntax highlighting
