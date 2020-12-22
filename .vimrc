@@ -1,8 +1,5 @@
 " Don't try to be vi compatible
 set nocompatible
-
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
